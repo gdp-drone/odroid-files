@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# run ./cpu_logger  >> cpu_test.txt &
+printf "Time\t    Memory\t\tCPU\n"
+end=$((SECONDS+300)) # 5 mins
+while [ $SECONDS -lt $end ]; do
+MEMORY=$(free -m | awk 'NR==2{printf "%.2f%%\t\t", $3*100/$2 }')
+CPU=$(top -bn1 | grep load | awk '{printf "%.2f%%\t\t\n", $(NF-2)}')
+CURR_TIME=$(date +%s)
+echo "$CURR_TIME: $MEMORY$CPU"
+sleep 1
+done

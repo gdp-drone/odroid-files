@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# run ./sensors_logger
+~/bagfiles/cpu_logger  >> ~/bagfiles/$(date +%s).txt &
+rosbag record -O ~/bagfiles/$(date +%s).bag /laser/scan /target_position /filtered_target_abs_position /drone_position
