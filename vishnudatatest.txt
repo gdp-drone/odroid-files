@@ -1,0 +1,1744 @@
+
+# geraldlow @ gerald-ubuntu in ~ [18:40:24] C:255
+$ ssh odroid@192.168.12.93
+odroid@192.168.12.93's password: 
+Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.14.120-160 armv7l)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+ * Ubuntu's Kubernetes 1.14 distributions can bypass Docker and use containerd
+   directly, see https://bit.ly/ubuntu-containerd or try it now with
+
+     snap install microk8s --classic
+
+21 packages can be updated.
+0 updates are security updates.
+
+Last login: Tue Jun 11 17:37:45 2019 from 192.168.12.1
+odroid@odroid:~$ rosrun drone_lib landing_indoor_node
+[ INFO] [1560275105.908481365]: GDPdrone: Connected
+[ INFO] [1560275106.424493573]: GDPdrone: OFFBOARD mode enabled
+[ INFO] [1560275106.779682532]: Vehicle Armed
+[ INFO] [1560275106.780242532]: Setting altitiude to 3 m.
+[ INFO] [1560275106.780689198]: GDPdrone: Takeoff Requested
+[ INFO] [1560275111.686484532]: GDPdrone: Takeoff Completed
+[ INFO] [1560275111.686652907]: Altitude is: 1.655025
+[ INFO] [1560275111.686734407]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275111.686841782]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275111.686925199]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275111.687394199]: Altitude is: 1.655025
+[ INFO] [1560275111.687476282]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275111.687567282]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275111.687649782]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275111.787576324]: Altitude is: 1.655025
+[ INFO] [1560275111.787759907]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275111.787851282]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275111.787941199]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275111.887509366]: Altitude is: 1.655025
+[ INFO] [1560275111.887640491]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275111.887732366]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275111.887814574]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275111.987636199]: Altitude is: 1.655025
+[ INFO] [1560275111.987923699]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275111.988120824]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275111.988289241]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275112.087553657]: Altitude is: 1.655025
+[ INFO] [1560275112.087694824]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275112.087774199]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275112.087864782]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275112.187536699]: Altitude is: 1.655025
+[ INFO] [1560275112.187665532]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275112.187744991]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275112.187823991]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275112.287529657]: Altitude is: 1.655025
+[ INFO] [1560275112.287670449]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275112.287779824]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275112.287890824]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275112.387523366]: Altitude is: 1.655025
+[ INFO] [1560275112.387659949]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275112.387750032]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275112.387840824]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275112.487540074]: Altitude is: 1.655025
+[ INFO] [1560275112.487689657]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275112.487769907]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275112.487869157]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275112.587533782]: Altitude is: 1.655025
+[ INFO] [1560275112.587686782]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275112.587785907]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275112.587873866]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275112.687535241]: Altitude is: 1.655025
+[ INFO] [1560275112.687705824]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275112.687847907]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275112.687953282]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275112.787587199]: Altitude is: 1.655025
+[ INFO] [1560275112.787716991]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275112.787855866]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275112.788006407]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275112.887546324]: Altitude is: 1.655025
+[ INFO] [1560275112.887689782]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275112.887768407]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275112.887871949]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275112.987571116]: Altitude is: 1.655025
+[ INFO] [1560275112.987724199]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275112.987810824]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275112.987910991]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275113.087543491]: Altitude is: 1.655025
+[ INFO] [1560275113.087682491]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275113.087763116]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275113.087843532]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275113.187529199]: Altitude is: 1.655025
+[ INFO] [1560275113.187655866]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275113.187727866]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275113.187820407]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275113.287533574]: Altitude is: 1.655025
+[ INFO] [1560275113.287670866]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275113.287759199]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275113.287872199]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275113.387569283]: Altitude is: 1.655025
+[ INFO] [1560275113.387763116]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275113.387894949]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275113.388044741]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275113.487513991]: Altitude is: 1.655025
+[ INFO] [1560275113.487644241]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275113.487728366]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275113.487801408]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275113.587546241]: Altitude is: 1.655025
+[ INFO] [1560275113.587720741]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275113.587826283]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275113.587944658]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275113.687549199]: Altitude is: 1.655025
+[ INFO] [1560275113.687724908]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275113.687860908]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275113.687950074]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275113.788283658]: Altitude is: 1.655025
+[ INFO] [1560275113.788637533]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275113.788934574]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275113.789370991]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275113.887993824]: Altitude is: 1.655025
+[ INFO] [1560275113.888158283]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275113.888239408]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275113.888317908]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275113.987514491]: Altitude is: 1.655025
+[ INFO] [1560275113.987637783]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275113.987707616]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275113.987801324]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275114.087987866]: Altitude is: 1.655025
+[ INFO] [1560275114.088230283]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275114.088524949]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275114.088727574]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275114.187591324]: Altitude is: 1.655025
+[ INFO] [1560275114.187757033]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275114.187859824]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275114.188019783]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275114.287563533]: Altitude is: 1.655025
+[ INFO] [1560275114.287729324]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275114.287885241]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275114.288010491]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275114.387574658]: Altitude is: 1.655025
+[ INFO] [1560275114.387728449]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275114.387818616]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275114.387920783]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275114.487685241]: Altitude is: 1.655025
+[ INFO] [1560275114.488102366]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275114.488381991]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275114.488705741]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275114.587579158]: Altitude is: 1.655025
+[ INFO] [1560275114.587727949]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275114.587818491]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275114.587926533]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275114.687529366]: Altitude is: 1.655025
+[ INFO] [1560275114.687658991]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275114.687724408]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275114.687789741]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275114.787601658]: Altitude is: 1.655025
+[ INFO] [1560275114.787886449]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275114.788245116]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275114.788626699]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275114.887557616]: Altitude is: 1.655025
+[ INFO] [1560275114.887706908]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275114.887788949]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275114.887858908]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275114.987533991]: Altitude is: 1.655025
+[ INFO] [1560275114.987683491]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275114.987819074]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275114.987933533]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275115.087621366]: Altitude is: 1.655025
+[ INFO] [1560275115.087870449]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275115.088009699]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275115.088142158]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275115.187624283]: Altitude is: 1.655025
+[ INFO] [1560275115.187888283]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275115.188052491]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275115.188191283]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275115.287550074]: Altitude is: 1.655025
+[ INFO] [1560275115.287703491]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275115.287804533]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275115.287909949]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275115.387537908]: Altitude is: 1.655025
+[ INFO] [1560275115.387669908]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275115.387737741]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275115.387802033]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275115.487519283]: Altitude is: 1.655025
+[ INFO] [1560275115.487645991]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275115.487743783]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275115.487816574]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275115.587625658]: Altitude is: 1.655025
+[ INFO] [1560275115.587932949]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275115.588171491]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275115.588364658]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275115.687611116]: Altitude is: 1.655025
+[ INFO] [1560275115.687792074]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275115.687879199]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275115.687939199]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275115.787653866]: Altitude is: 1.655025
+[ INFO] [1560275115.787989616]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275115.788210324]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275115.788393616]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275115.887619949]: Altitude is: 1.655025
+[ INFO] [1560275115.887807283]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275115.887928908]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275115.888042866]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275115.987649449]: Altitude is: 1.655025
+[ INFO] [1560275115.987970283]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275115.988247866]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275115.988456158]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275116.087710824]: Altitude is: 1.655025
+[ INFO] [1560275116.088118199]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275116.088455616]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275116.088772658]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275116.187526866]: Altitude is: 1.655025
+[ INFO] [1560275116.187658241]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275116.187762116]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275116.187835450]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275116.287532866]: Altitude is: 1.655025
+[ INFO] [1560275116.287665741]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275116.287740116]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275116.287809825]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275116.388159950]: Altitude is: 1.655025
+[ INFO] [1560275116.388460908]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275116.388685075]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275116.388894658]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275116.487559366]: Altitude is: 1.655025
+[ INFO] [1560275116.487682325]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275116.487749658]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275116.487814325]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275116.587550158]: Altitude is: 1.655025
+[ INFO] [1560275116.587720116]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275116.587831825]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275116.587980116]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275116.687555200]: Altitude is: 1.655025
+[ INFO] [1560275116.687718908]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275116.687835283]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275116.687942283]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275116.787545950]: Altitude is: 1.655025
+[ INFO] [1560275116.787690491]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275116.787776575]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275116.787888950]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275116.887545991]: Altitude is: 1.655025
+[ INFO] [1560275116.887708075]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275116.887801200]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275116.887874700]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275116.987535700]: Altitude is: 1.655025
+[ INFO] [1560275116.987696116]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275116.987808075]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275116.987943408]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275117.087553408]: Altitude is: 1.655025
+[ INFO] [1560275117.087703991]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275117.087788075]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275117.087924950]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275117.187538616]: Altitude is: 1.655025
+[ INFO] [1560275117.187686408]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275117.187764616]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275117.187855200]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275117.287540575]: Altitude is: 1.655025
+[ INFO] [1560275117.287708325]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275117.287817658]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275117.287954491]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275117.387517866]: Altitude is: 1.655025
+[ INFO] [1560275117.387647491]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275117.387731950]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275117.387805241]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275117.487532783]: Altitude is: 1.655025
+[ INFO] [1560275117.487670075]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275117.487768783]: Distance from target according to cam: 0.321941, move forward: 0.027704, move right: 0.320747
+[ INFO] [1560275117.487847575]: velocity commands, right: 0.213831, forward, 0.018469
+[ INFO] [1560275117.587608366]: Altitude is: 1.842545
+[ INFO] [1560275117.587857408]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275117.588013158]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275117.588163866]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275117.687545491]: Altitude is: 1.842545
+[ INFO] [1560275117.687671450]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275117.687763491]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275117.687866658]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275117.787545408]: Altitude is: 1.842545
+[ INFO] [1560275117.787669033]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275117.787746158]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275117.787823950]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275117.887573950]: Altitude is: 1.842545
+[ INFO] [1560275117.887712866]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275117.887791408]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275117.887859491]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275117.987522658]: Altitude is: 1.842545
+[ INFO] [1560275117.987676825]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275117.987760158]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275117.987877658]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275118.087509991]: Altitude is: 1.842545
+[ INFO] [1560275118.087639658]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275118.087790533]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275118.087898033]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275118.187540366]: Altitude is: 1.842545
+[ INFO] [1560275118.187693950]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275118.187787450]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275118.187914533]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275118.287530450]: Altitude is: 1.842545
+[ INFO] [1560275118.287662950]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275118.287732908]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275118.287801491]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275118.387542783]: Altitude is: 1.842545
+[ INFO] [1560275118.387677866]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275118.387752325]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275118.387847741]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275118.487538241]: Altitude is: 1.842545
+[ INFO] [1560275118.487665783]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275118.487736575]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275118.487802825]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275118.587876908]: Altitude is: 1.842545
+[ INFO] [1560275118.588003200]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275118.588121741]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275118.588260908]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275118.687537366]: Altitude is: 1.842545
+[ INFO] [1560275118.687677325]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275118.687749991]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275118.687846241]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275118.787530533]: Altitude is: 1.842545
+[ INFO] [1560275118.787666950]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275118.787742033]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275118.787820533]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275118.887518658]: Altitude is: 1.842545
+[ INFO] [1560275118.887666200]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275118.887776783]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275118.887896158]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275118.987533033]: Altitude is: 1.842545
+[ INFO] [1560275118.987663200]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275118.987754783]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275118.987841658]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275119.087527033]: Altitude is: 1.842545
+[ INFO] [1560275119.087691658]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275119.087826658]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275119.088012783]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275119.187511117]: Altitude is: 1.842545
+[ INFO] [1560275119.187641033]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275119.187729158]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275119.187807117]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275119.287501950]: Altitude is: 1.842545
+[ INFO] [1560275119.287624158]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275119.287718742]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275119.287795867]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275119.387546742]: Altitude is: 1.842545
+[ INFO] [1560275119.387697408]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275119.387775867]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275119.387873658]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275119.487556408]: Altitude is: 1.842545
+[ INFO] [1560275119.487690200]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275119.487770075]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275119.487853992]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275119.587532492]: Altitude is: 1.842545
+[ INFO] [1560275119.587674492]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275119.587776992]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275119.587874992]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275119.687509617]: Altitude is: 1.842545
+[ INFO] [1560275119.687638200]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275119.687730783]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275119.687832283]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275119.787617658]: Altitude is: 1.842545
+[ INFO] [1560275119.787910575]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275119.788142783]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275119.788351908]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275119.887589408]: Altitude is: 1.842545
+[ INFO] [1560275119.887732325]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275119.887821200]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275119.887894033]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275119.987675283]: Altitude is: 1.842545
+[ INFO] [1560275119.988045992]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275119.988308867]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275119.988551367]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275120.087545492]: Altitude is: 1.842545
+[ INFO] [1560275120.087675200]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275120.087797658]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275120.087903450]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275120.187509450]: Altitude is: 1.842545
+[ INFO] [1560275120.187636658]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275120.187786325]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275120.187908075]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275120.288139950]: Altitude is: 1.842545
+[ INFO] [1560275120.288430158]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275120.288679325]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275120.288904200]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275120.387537617]: Altitude is: 1.842545
+[ INFO] [1560275120.387671700]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275120.387773575]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275120.387847575]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275120.487555075]: Altitude is: 1.842545
+[ INFO] [1560275120.487700283]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275120.487795117]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275120.487870908]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275120.587635783]: Altitude is: 1.842545
+[ INFO] [1560275120.587956033]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275120.588206658]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275120.588463908]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275120.687550325]: Altitude is: 1.842545
+[ INFO] [1560275120.687689200]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275120.687802242]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275120.687937158]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275120.787665158]: Altitude is: 1.842545
+[ INFO] [1560275120.788012742]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275120.788204408]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275120.788354200]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275120.887574200]: Altitude is: 1.842545
+[ INFO] [1560275120.887762033]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275120.887851492]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275120.887927783]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275120.987609700]: Altitude is: 1.842545
+[ INFO] [1560275120.987856450]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275120.988038575]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275120.988187867]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275121.087545367]: Altitude is: 1.842545
+[ INFO] [1560275121.087694075]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275121.087775700]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275121.087854950]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275121.187545575]: Altitude is: 1.842545
+[ INFO] [1560275121.187689283]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275121.187772367]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275121.187844867]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275121.287553367]: Altitude is: 1.842545
+[ INFO] [1560275121.287693992]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275121.287786117]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275121.287894075]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275121.387660158]: Altitude is: 1.842545
+[ INFO] [1560275121.388003117]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275121.388264158]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275121.388496200]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275121.487600700]: Altitude is: 1.842545
+[ INFO] [1560275121.487819242]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275121.487939617]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275121.488033950]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275121.587594283]: Altitude is: 1.842545
+[ INFO] [1560275121.587824325]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275121.587967533]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275121.588076825]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275121.687547575]: Altitude is: 1.842545
+[ INFO] [1560275121.687739242]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275121.687908033]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275121.688165617]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275121.787531992]: Altitude is: 1.842545
+[ INFO] [1560275121.787660659]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275121.787770617]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275121.787931450]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275121.887539617]: Altitude is: 1.842545
+[ INFO] [1560275121.887703867]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275121.887853367]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275121.888027075]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275121.987571700]: Altitude is: 1.842545
+[ INFO] [1560275121.987725659]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275121.987812784]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275121.987907367]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275122.087508992]: Altitude is: 1.842545
+[ INFO] [1560275122.087636867]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275122.087723992]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275122.087796742]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275122.187522075]: Altitude is: 1.842545
+[ INFO] [1560275122.187653242]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275122.187749992]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275122.187913950]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275122.287553492]: Altitude is: 1.842545
+[ INFO] [1560275122.287713992]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275122.287821200]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275122.287946200]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275122.387590367]: Altitude is: 1.842545
+[ INFO] [1560275122.387745617]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275122.387819367]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275122.387885159]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275122.487521575]: Altitude is: 1.842545
+[ INFO] [1560275122.487651409]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275122.487800700]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275122.487906617]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275122.587523617]: Altitude is: 1.842545
+[ INFO] [1560275122.587645950]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275122.587768075]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275122.587840242]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275122.687540825]: Altitude is: 1.842545
+[ INFO] [1560275122.687667450]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275122.687738200]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275122.687801200]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275122.787542700]: Altitude is: 1.842545
+[ INFO] [1560275122.787701034]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275122.787801075]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275122.787897617]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275122.887614784]: Altitude is: 1.842545
+[ INFO] [1560275122.887878450]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275122.888056325]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275122.888215575]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275122.987559492]: Altitude is: 1.842545
+[ INFO] [1560275122.987702117]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275122.987781159]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275122.987854742]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275123.087515742]: Altitude is: 1.842545
+[ INFO] [1560275123.087648034]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275123.087730534]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275123.087816159]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275123.187533242]: Altitude is: 1.842545
+[ INFO] [1560275123.187684409]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275123.187766617]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275123.187887159]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275123.287533325]: Altitude is: 1.842545
+[ INFO] [1560275123.287669409]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275123.287764700]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275123.287838617]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275123.388065909]: Altitude is: 1.842545
+[ INFO] [1560275123.388324742]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275123.388557742]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275123.388769950]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275123.487545159]: Altitude is: 1.842545
+[ INFO] [1560275123.487736700]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275123.487855200]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275123.487960409]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275123.587535034]: Altitude is: 1.842545
+[ INFO] [1560275123.587686200]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275123.587807200]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275123.587912159]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275123.687608492]: Altitude is: 1.842545
+[ INFO] [1560275123.687888492]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275123.688085784]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275123.688240492]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275123.787549159]: Altitude is: 1.842545
+[ INFO] [1560275123.787685367]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275123.787763200]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275123.787840325]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275123.888083700]: Altitude is: 1.842545
+[ INFO] [1560275123.888317409]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275123.888522659]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275123.888714659]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275123.987592700]: Altitude is: 1.842545
+[ INFO] [1560275123.987741659]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275123.987853575]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275123.987972367]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275124.087546617]: Altitude is: 1.842545
+[ INFO] [1560275124.087764075]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275124.087859159]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275124.087963159]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275124.187509409]: Altitude is: 1.842545
+[ INFO] [1560275124.187643784]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275124.187728700]: Distance from target according to cam: 0.217386, move forward: 0.070203, move right: 0.205738
+[ INFO] [1560275124.187807200]: velocity commands, right: 0.137159, forward, 0.046802
+[ INFO] [1560275124.287565825]: Altitude is: 1.509783
+[ INFO] [1560275124.287710992]: Distance from target according to cam: 0.093783, move forward: 0.047746, move right: 0.080719
+[ INFO] [1560275124.287792909]: count: 15.000000, velocity commands, right: 0.053813, forward, 0.031830
+[ INFO] [1560275124.387556409]: Altitude is: 1.509783
+[ INFO] [1560275124.387714242]: Distance from target according to cam: 0.093783, move forward: 0.047746, move right: 0.080719
+[ INFO] [1560275124.387797659]: count: 15.000000, velocity commands, right: 0.053813, forward, 0.031830
+[ INFO] [1560275124.487569950]: Altitude is: 1.509783
+[ INFO] [1560275124.487707200]: Distance from target according to cam: 0.093783, move forward: 0.047746, move right: 0.080719
+[ INFO] [1560275124.487777575]: count: 15.000000, velocity commands, right: 0.053813, forward, 0.031830
+[ INFO] [1560275124.587506826]: Altitude is: 1.509783
+[ INFO] [1560275124.587641867]: Distance from target according to cam: 0.093783, move forward: 0.047746, move right: 0.080719
+[ INFO] [1560275124.587779159]: count: 15.000000, velocity commands, right: 0.053813, forward, 0.031830
+[ INFO] [1560275124.687539951]: Altitude is: 1.509783
+[ INFO] [1560275124.687688992]: Distance from target according to cam: 0.093783, move forward: 0.047746, move right: 0.080719
+[ INFO] [1560275124.687767117]: count: 15.000000, velocity commands, right: 0.053813, forward, 0.031830
+[ INFO] [1560275124.787537951]: Altitude is: 1.509783
+[ INFO] [1560275124.787711701]: Distance from target according to cam: 0.093783, move forward: 0.047746, move right: 0.080719
+[ INFO] [1560275124.787822242]: count: 15.000000, velocity commands, right: 0.053813, forward, 0.031830
+[ INFO] [1560275124.887529451]: Altitude is: 1.509783
+[ INFO] [1560275124.887674242]: Distance from target according to cam: 0.093783, move forward: 0.047746, move right: 0.080719
+[ INFO] [1560275124.887772576]: count: 15.000000, velocity commands, right: 0.053813, forward, 0.031830
+[ INFO] [1560275124.987517326]: Altitude is: 1.509783
+[ INFO] [1560275124.987651367]: Distance from target according to cam: 0.093783, move forward: 0.047746, move right: 0.080719
+[ INFO] [1560275124.987765617]: count: 15.000000, velocity commands, right: 0.053813, forward, 0.031830
+[ INFO] [1560275125.087514076]: Altitude is: 1.509783
+[ INFO] [1560275125.087647576]: Distance from target according to cam: 0.093783, move forward: 0.047746, move right: 0.080719
+[ INFO] [1560275125.087715326]: count: 15.000000, velocity commands, right: 0.053813, forward, 0.031830
+[ INFO] [1560275125.187558992]: Altitude is: 1.509783
+[ INFO] [1560275125.187721617]: Distance from target according to cam: 0.093783, move forward: 0.047746, move right: 0.080719
+[ INFO] [1560275125.187804576]: count: 15.000000, velocity commands, right: 0.053813, forward, 0.031830
+[ INFO] [1560275125.287590951]: Altitude is: 1.509783
+[ INFO] [1560275125.287754076]: Distance from target according to cam: 0.093783, move forward: 0.047746, move right: 0.080719
+[ INFO] [1560275125.287855076]: count: 15.000000, velocity commands, right: 0.053813, forward, 0.031830
+[ INFO] [1560275125.387550451]: Altitude is: 1.509783
+[ INFO] [1560275125.387722117]: Distance from target according to cam: 0.093783, move forward: 0.047746, move right: 0.080719
+[ INFO] [1560275125.387809284]: count: 15.000000, velocity commands, right: 0.053813, forward, 0.031830
+[ INFO] [1560275125.487547201]: Altitude is: 1.509783
+[ INFO] [1560275125.487687367]: Distance from target according to cam: 0.093783, move forward: 0.047746, move right: 0.080719
+[ INFO] [1560275125.487761201]: count: 15.000000, velocity commands, right: 0.053813, forward, 0.031830
+[ INFO] [1560275125.587514826]: Altitude is: 1.509783
+[ INFO] [1560275125.587772367]: Distance from target according to cam: 0.093783, move forward: 0.047746, move right: 0.080719
+[ INFO] [1560275125.587966784]: count: 15.000000, velocity commands, right: 0.053813, forward, 0.031830
+[ INFO] [1560275125.687526784]: Altitude is: 1.509783
+[ INFO] [1560275125.687670326]: Distance from target according to cam: 0.093783, move forward: 0.047746, move right: 0.080719
+[ INFO] [1560275125.687766284]: count: 15.000000, velocity commands, right: 0.053813, forward, 0.031830
+[ INFO] [1560275125.787519367]: Altitude is: 1.509783
+[ INFO] [1560275125.787657326]: Distance from target according to cam: 0.093783, move forward: 0.047746, move right: 0.080719
+[ INFO] [1560275125.787760826]: count: 15.000000, velocity commands, right: 0.053813, forward, 0.031830
+[ INFO] [1560275125.887536951]: Altitude is: 1.509783
+[ INFO] [1560275125.887673284]: Distance from target according to cam: 0.093783, move forward: 0.047746, move right: 0.080719
+[ INFO] [1560275125.887779576]: count: 15.000000, velocity commands, right: 0.053813, forward, 0.031830
+[ INFO] [1560275125.987511617]: Altitude is: 1.509783
+[ INFO] [1560275125.987645867]: Distance from target according to cam: 0.093783, move forward: 0.047746, move right: 0.080719
+[ INFO] [1560275125.987791659]: count: 15.000000, velocity commands, right: 0.053813, forward, 0.031830
+[ INFO] [1560275126.087559742]: Altitude is: 1.509783
+[ INFO] [1560275126.087708992]: Distance from target according to cam: 0.093783, move forward: 0.047746, move right: 0.080719
+[ INFO] [1560275126.087792201]: count: 15.000000, velocity commands, right: 0.053813, forward, 0.031830
+[ INFO] [1560275126.187573701]: Altitude is: 1.509783
+[ INFO] [1560275126.187743284]: Distance from target according to cam: 0.093783, move forward: 0.047746, move right: 0.080719
+[ INFO] [1560275126.187834117]: count: 15.000000, velocity commands, right: 0.053813, forward, 0.031830
+[ INFO] [1560275126.287565492]: Altitude is: 1.509783
+[ INFO] [1560275126.287698367]: Distance from target according to cam: 0.093783, move forward: 0.047746, move right: 0.080719
+[ INFO] [1560275126.287769409]: count: 15.000000, velocity commands, right: 0.053813, forward, 0.031830
+[ INFO] [1560275126.387524242]: Altitude is: 1.509783
+[ INFO] [1560275126.387674867]: Distance from target according to cam: 0.093783, move forward: 0.047746, move right: 0.080719
+[ INFO] [1560275126.387773451]: count: 15.000000, velocity commands, right: 0.053813, forward, 0.031830
+[ INFO] [1560275126.487551159]: Altitude is: 1.509783
+[ INFO] [1560275126.487696326]: Distance from target according to cam: 0.093783, move forward: 0.047746, move right: 0.080719
+[ INFO] [1560275126.487767617]: count: 15.000000, velocity commands, right: 0.053813, forward, 0.031830
+[ INFO] [1560275126.587537201]: Altitude is: 1.576077
+[ INFO] [1560275126.587684034]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275126.587811867]: Distance from target according to cam: 0.171259, move forward: 0.148041, move right: 0.086102
+[ INFO] [1560275126.587917326]: velocity commands, right: 0.057401, forward, 0.098694
+[ INFO] [1560275126.687513492]: Altitude is: 1.576077
+[ INFO] [1560275126.687632909]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275126.687718909]: Distance from target according to cam: 0.171259, move forward: 0.148041, move right: 0.086102
+[ INFO] [1560275126.687800826]: velocity commands, right: 0.057401, forward, 0.098694
+[ INFO] [1560275126.787544451]: Altitude is: 1.576077
+[ INFO] [1560275126.787711951]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275126.787847492]: Distance from target according to cam: 0.171259, move forward: 0.148041, move right: 0.086102
+[ INFO] [1560275126.787945159]: velocity commands, right: 0.057401, forward, 0.098694
+[ INFO] [1560275126.887521284]: Altitude is: 1.576077
+[ INFO] [1560275126.887650367]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275126.887743742]: Distance from target according to cam: 0.171259, move forward: 0.148041, move right: 0.086102
+[ INFO] [1560275126.887822117]: velocity commands, right: 0.057401, forward, 0.098694
+[ INFO] [1560275126.987543326]: Altitude is: 1.576077
+[ INFO] [1560275126.987680367]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275126.987790367]: Distance from target according to cam: 0.171259, move forward: 0.148041, move right: 0.086102
+[ INFO] [1560275126.987888826]: velocity commands, right: 0.057401, forward, 0.098694
+[ INFO] [1560275127.087534659]: Altitude is: 1.731898
+[ INFO] [1560275127.087683284]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275127.087783451]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275127.087895826]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275127.187591784]: Altitude is: 1.731898
+[ INFO] [1560275127.187779117]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275127.187856034]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275127.187929576]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275127.287615159]: Altitude is: 1.731898
+[ INFO] [1560275127.287752492]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275127.287854242]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275127.287940076]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275127.387534743]: Altitude is: 1.731898
+[ INFO] [1560275127.387659159]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275127.387733409]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275127.387799034]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275127.487560368]: Altitude is: 1.731898
+[ INFO] [1560275127.487700201]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275127.487812118]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275127.487912493]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275127.587563368]: Altitude is: 1.731898
+[ INFO] [1560275127.587717493]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275127.587796326]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275127.587873618]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275127.687510034]: Altitude is: 1.731898
+[ INFO] [1560275127.687631076]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275127.687720951]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275127.687803868]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275127.787555201]: Altitude is: 1.731898
+[ INFO] [1560275127.787688284]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275127.787756034]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275127.787825451]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275127.887532826]: Altitude is: 1.731898
+[ INFO] [1560275127.887719034]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275127.887966951]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275127.888120451]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275127.987595743]: Altitude is: 1.731898
+[ INFO] [1560275127.987838826]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275127.988009243]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275127.988136826]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275128.087545076]: Altitude is: 1.731898
+[ INFO] [1560275128.087697868]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275128.087767326]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275128.087839409]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275128.187532076]: Altitude is: 1.731898
+[ INFO] [1560275128.187665826]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275128.187745701]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275128.187819451]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275128.287551118]: Altitude is: 1.731898
+[ INFO] [1560275128.287683284]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275128.287767993]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275128.287853284]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275128.387524451]: Altitude is: 1.731898
+[ INFO] [1560275128.387656201]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275128.387756576]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275128.387835159]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275128.487541493]: Altitude is: 1.731898
+[ INFO] [1560275128.487674659]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275128.487740868]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275128.487808909]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275128.587623576]: Altitude is: 1.731898
+[ INFO] [1560275128.587878326]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275128.588029451]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275128.588159826]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275128.687529368]: Altitude is: 1.731898
+[ INFO] [1560275128.687653784]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275128.687760993]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275128.687873951]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275128.787525368]: Altitude is: 1.731898
+[ INFO] [1560275128.787661409]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275128.787763534]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275128.787859784]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275128.887549451]: Altitude is: 1.731898
+[ INFO] [1560275128.887676993]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275128.887748368]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275128.887813076]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275128.987541701]: Altitude is: 1.731898
+[ INFO] [1560275128.987681576]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275128.987779493]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275128.987880493]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275129.087522951]: Altitude is: 1.731898
+[ INFO] [1560275129.087648368]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275129.087739951]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275129.087827826]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275129.187512284]: Altitude is: 1.731898
+[ INFO] [1560275129.187639034]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275129.187733034]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275129.187808368]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275129.287545868]: Altitude is: 1.731898
+[ INFO] [1560275129.287675743]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275129.287744618]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275129.287808159]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275129.387519993]: Altitude is: 1.731898
+[ INFO] [1560275129.387645076]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275129.387737076]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275129.387818326]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275129.487525284]: Altitude is: 1.731898
+[ INFO] [1560275129.487651909]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275129.487719201]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275129.487785409]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275129.587572243]: Altitude is: 1.731898
+[ INFO] [1560275129.587738784]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275129.587815076]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275129.587900451]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275129.687540284]: Altitude is: 1.731898
+[ INFO] [1560275129.687675284]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275129.687765701]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275129.687845451]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275129.787548784]: Altitude is: 1.731898
+[ INFO] [1560275129.787697368]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275129.787776201]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275129.787854701]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275129.887554493]: Altitude is: 1.731898
+[ INFO] [1560275129.887693159]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275129.887815326]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275129.887931284]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275129.987531243]: Altitude is: 1.731898
+[ INFO] [1560275129.987670284]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275129.987752868]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275129.987850576]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275130.087540951]: Altitude is: 1.731898
+[ INFO] [1560275130.087673118]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275130.087747993]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275130.087814659]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275130.187622785]: Altitude is: 1.731898
+[ INFO] [1560275130.187874826]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275130.188026243]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275130.188142285]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275130.287550201]: Altitude is: 1.731898
+[ INFO] [1560275130.287685410]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275130.287812618]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275130.287896785]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275130.387520326]: Altitude is: 1.731898
+[ INFO] [1560275130.387664743]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275130.387765118]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275130.387915660]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275130.487521660]: Altitude is: 1.731898
+[ INFO] [1560275130.487668076]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275130.487757910]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275130.487847951]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275130.587544035]: Altitude is: 1.731898
+[ INFO] [1560275130.587683993]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275130.587803285]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275130.587896410]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275130.687536785]: Altitude is: 1.731898
+[ INFO] [1560275130.687663535]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275130.687743535]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275130.687815326]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275130.787549160]: Altitude is: 1.731898
+[ INFO] [1560275130.787719160]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275130.787839868]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275130.787936993]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275130.887516368]: Altitude is: 1.731898
+[ INFO] [1560275130.887655576]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275130.887759201]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275130.887841201]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275130.987597493]: Altitude is: 1.731898
+[ INFO] [1560275130.987876701]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275130.988047576]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275130.988186035]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275131.087610785]: Altitude is: 1.731898
+[ INFO] [1560275131.087848826]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275131.088043910]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275131.088214826]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275131.187637326]: Altitude is: 1.731898
+[ INFO] [1560275131.187935910]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275131.188124743]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275131.188276785]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275131.287644243]: Altitude is: 1.731898
+[ INFO] [1560275131.287968826]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275131.288170743]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275131.288342118]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275131.387581743]: Altitude is: 1.731898
+[ INFO] [1560275131.387760451]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275131.387851201]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275131.387947951]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275131.487535826]: Altitude is: 1.731898
+[ INFO] [1560275131.487691910]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275131.487805785]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275131.487899160]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275131.587527826]: Altitude is: 1.731898
+[ INFO] [1560275131.587668118]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275131.587757118]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275131.587844660]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275131.687530368]: Altitude is: 1.731898
+[ INFO] [1560275131.687656576]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275131.687725243]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275131.687791118]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275131.787538951]: Altitude is: 1.731898
+[ INFO] [1560275131.787675910]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275131.787765535]: Distance from target according to cam: 0.284960, move forward: 0.230596, move right: 0.167415
+[ INFO] [1560275131.787845368]: velocity commands, right: 0.111610, forward, 0.153730
+[ INFO] [1560275131.887535826]: Altitude is: 1.476127
+[ INFO] [1560275131.887720243]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275131.887816285]: Distance from target according to cam: 0.281062, move forward: 0.217644, move right: 0.177840
+[ INFO] [1560275131.887949660]: velocity commands, right: 0.118560, forward, 0.145096
+[ INFO] [1560275131.987535368]: Altitude is: 1.476127
+[ INFO] [1560275131.987674076]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275131.987764576]: Distance from target according to cam: 0.281062, move forward: 0.217644, move right: 0.177840
+[ INFO] [1560275131.987890868]: velocity commands, right: 0.118560, forward, 0.145096
+[ INFO] [1560275132.087557368]: Altitude is: 1.476127
+[ INFO] [1560275132.087704951]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275132.087781326]: Distance from target according to cam: 0.281062, move forward: 0.217644, move right: 0.177840
+[ INFO] [1560275132.087887910]: velocity commands, right: 0.118560, forward, 0.145096
+[ INFO] [1560275132.187638910]: Altitude is: 1.476127
+[ INFO] [1560275132.187970035]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275132.188202410]: Distance from target according to cam: 0.281062, move forward: 0.217644, move right: 0.177840
+[ INFO] [1560275132.188383743]: velocity commands, right: 0.118560, forward, 0.145096
+[ INFO] [1560275132.287549243]: Altitude is: 1.476127
+[ INFO] [1560275132.287682118]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275132.287755118]: Distance from target according to cam: 0.281062, move forward: 0.217644, move right: 0.177840
+[ INFO] [1560275132.287820993]: velocity commands, right: 0.118560, forward, 0.145096
+[ INFO] [1560275132.387541410]: Altitude is: 1.476127
+[ INFO] [1560275132.387669910]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275132.387742993]: Distance from target according to cam: 0.281062, move forward: 0.217644, move right: 0.177840
+[ INFO] [1560275132.387838368]: velocity commands, right: 0.118560, forward, 0.145096
+[ INFO] [1560275132.487546993]: Altitude is: 1.476127
+[ INFO] [1560275132.487675993]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275132.487750868]: Distance from target according to cam: 0.281062, move forward: 0.217644, move right: 0.177840
+[ INFO] [1560275132.487816743]: velocity commands, right: 0.118560, forward, 0.145096
+[ INFO] [1560275132.587512535]: Altitude is: 1.476127
+[ INFO] [1560275132.587638035]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275132.587744451]: Distance from target according to cam: 0.281062, move forward: 0.217644, move right: 0.177840
+[ INFO] [1560275132.587863118]: velocity commands, right: 0.118560, forward, 0.145096
+[ INFO] [1560275132.687539160]: Altitude is: 1.476127
+[ INFO] [1560275132.687679743]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275132.687756576]: Distance from target according to cam: 0.281062, move forward: 0.217644, move right: 0.177840
+[ INFO] [1560275132.687828493]: velocity commands, right: 0.118560, forward, 0.145096
+[ INFO] [1560275132.787638035]: Altitude is: 1.476127
+[ INFO] [1560275132.787923785]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275132.788112868]: Distance from target according to cam: 0.281062, move forward: 0.217644, move right: 0.177840
+[ INFO] [1560275132.788277701]: velocity commands, right: 0.118560, forward, 0.145096
+[ INFO] [1560275132.887600576]: Altitude is: 1.476127
+[ INFO] [1560275132.887818535]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275132.887945868]: Distance from target according to cam: 0.281062, move forward: 0.217644, move right: 0.177840
+[ INFO] [1560275132.888044826]: velocity commands, right: 0.118560, forward, 0.145096
+[ INFO] [1560275132.987544660]: Altitude is: 1.476127
+[ INFO] [1560275132.987670327]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275132.987782868]: Distance from target according to cam: 0.281062, move forward: 0.217644, move right: 0.177840
+[ INFO] [1560275132.987879952]: velocity commands, right: 0.118560, forward, 0.145096
+[ INFO] [1560275133.087523993]: Altitude is: 1.476127
+[ INFO] [1560275133.087659452]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275133.087761160]: Distance from target according to cam: 0.281062, move forward: 0.217644, move right: 0.177840
+[ INFO] [1560275133.087839160]: velocity commands, right: 0.118560, forward, 0.145096
+[ INFO] [1560275133.187660243]: Altitude is: 1.476127
+[ INFO] [1560275133.188004785]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275133.188252618]: Distance from target according to cam: 0.281062, move forward: 0.217644, move right: 0.177840
+[ INFO] [1560275133.188466577]: velocity commands, right: 0.118560, forward, 0.145096
+[ INFO] [1560275133.287540702]: Altitude is: 1.476127
+[ INFO] [1560275133.287660868]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275133.287759660]: Distance from target according to cam: 0.281062, move forward: 0.217644, move right: 0.177840
+[ INFO] [1560275133.287829410]: velocity commands, right: 0.118560, forward, 0.145096
+[ INFO] [1560275133.387622535]: Altitude is: 1.476127
+[ INFO] [1560275133.387908493]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275133.388105077]: Distance from target according to cam: 0.281062, move forward: 0.217644, move right: 0.177840
+[ INFO] [1560275133.388273743]: velocity commands, right: 0.118560, forward, 0.145096
+[ INFO] [1560275133.487541702]: Altitude is: 1.476127
+[ INFO] [1560275133.487693160]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275133.487776160]: Distance from target according to cam: 0.281062, move forward: 0.217644, move right: 0.177840
+[ INFO] [1560275133.487854577]: velocity commands, right: 0.118560, forward, 0.145096
+[ INFO] [1560275133.587545202]: Altitude is: 1.476127
+[ INFO] [1560275133.587684660]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275133.587798202]: Distance from target according to cam: 0.281062, move forward: 0.217644, move right: 0.177840
+[ INFO] [1560275133.587885160]: velocity commands, right: 0.118560, forward, 0.145096
+[ INFO] [1560275133.687613618]: Altitude is: 1.476127
+[ INFO] [1560275133.687859535]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275133.688139035]: Distance from target according to cam: 0.281062, move forward: 0.217644, move right: 0.177840
+[ INFO] [1560275133.688403993]: velocity commands, right: 0.118560, forward, 0.145096
+[ INFO] [1560275133.787527202]: Altitude is: 1.243057
+[ INFO] [1560275133.787654952]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275133.787761285]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275133.787837202]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275133.887560118]: Altitude is: 1.243057
+[ INFO] [1560275133.887725118]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275133.887922243]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275133.888060535]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275133.987647327]: Altitude is: 1.243057
+[ INFO] [1560275133.987942410]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275133.988135285]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275133.988299535]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275134.087612535]: Altitude is: 1.243057
+[ INFO] [1560275134.087873785]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275134.088121827]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275134.088341827]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275134.187696243]: Altitude is: 1.243057
+[ INFO] [1560275134.188085660]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275134.188446493]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275134.188787702]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275134.287632702]: Altitude is: 1.243057
+[ INFO] [1560275134.287918785]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275134.288113285]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275134.288277868]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275134.387542160]: Altitude is: 1.243057
+[ INFO] [1560275134.387672160]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275134.387783243]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275134.387879118]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275134.487571743]: Altitude is: 1.243057
+[ INFO] [1560275134.487772368]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275134.487894202]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275134.487979910]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275134.587524618]: Altitude is: 1.243057
+[ INFO] [1560275134.587646785]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275134.587735202]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275134.587827702]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275134.687504077]: Altitude is: 1.243057
+[ INFO] [1560275134.687620243]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275134.687714535]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275134.687791077]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275134.787568410]: Altitude is: 1.243057
+[ INFO] [1560275134.787717368]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275134.787792077]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275134.787865160]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275134.887549618]: Altitude is: 1.243057
+[ INFO] [1560275134.887681118]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275134.887752952]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275134.887815618]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275134.987552243]: Altitude is: 1.243057
+[ INFO] [1560275134.987700493]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275134.987826118]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275134.987940243]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275135.087522160]: Altitude is: 1.243057
+[ INFO] [1560275135.087654285]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275135.087736827]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275135.087809577]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275135.187521785]: Altitude is: 1.243057
+[ INFO] [1560275135.187656827]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275135.187761327]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275135.187864368]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275135.287516243]: Altitude is: 1.243057
+[ INFO] [1560275135.287643743]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275135.287743535]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275135.287824410]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275135.387516118]: Altitude is: 1.243057
+[ INFO] [1560275135.387644327]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275135.387747285]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275135.387837618]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275135.487606660]: Altitude is: 1.243057
+[ INFO] [1560275135.487894327]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275135.488088452]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275135.488255702]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275135.587539285]: Altitude is: 1.243057
+[ INFO] [1560275135.587669035]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275135.587778160]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275135.587905827]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275135.687512202]: Altitude is: 1.243057
+[ INFO] [1560275135.687646035]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275135.687768368]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275135.687914243]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275135.787587285]: Altitude is: 1.243057
+[ INFO] [1560275135.787738452]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275135.787821827]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275135.787915369]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275135.887527119]: Altitude is: 1.243057
+[ INFO] [1560275135.887662910]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275135.887736119]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275135.887803660]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275135.987542452]: Altitude is: 1.243057
+[ INFO] [1560275135.987679577]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275135.987781160]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275135.987863035]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275136.087510744]: Altitude is: 1.243057
+[ INFO] [1560275136.087632160]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275136.087721827]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275136.087810285]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275136.187513285]: Altitude is: 1.243057
+[ INFO] [1560275136.187642410]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275136.187732327]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275136.187818494]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275136.287529494]: Altitude is: 1.243057
+[ INFO] [1560275136.287659077]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275136.287747702]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275136.287819410]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275136.387526952]: Altitude is: 1.243057
+[ INFO] [1560275136.387658327]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275136.387758827]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275136.387885244]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275136.487522785]: Altitude is: 1.243057
+[ INFO] [1560275136.487652994]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275136.487770160]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275136.487884869]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275136.587630702]: Altitude is: 1.243057
+[ INFO] [1560275136.587940077]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275136.588145577]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275136.588327494]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275136.687563202]: Altitude is: 1.243057
+[ INFO] [1560275136.687722369]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275136.687820202]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275136.687926785]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275136.787564910]: Altitude is: 1.243057
+[ INFO] [1560275136.787720202]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275136.787806327]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275136.787909660]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275136.887528202]: Altitude is: 1.243057
+[ INFO] [1560275136.887645952]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275136.887742535]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275136.887809494]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275136.987526702]: Altitude is: 1.243057
+[ INFO] [1560275136.987651827]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275136.987728494]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275136.987842410]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275137.087562160]: Altitude is: 1.243057
+[ INFO] [1560275137.087712994]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275137.087803827]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275137.087932660]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275137.187576660]: Altitude is: 1.243057
+[ INFO] [1560275137.187752452]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275137.187865577]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275137.187983077]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275137.287523619]: Altitude is: 1.243057
+[ INFO] [1560275137.287651702]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275137.287738285]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275137.287803994]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275137.387540702]: Altitude is: 1.243057
+[ INFO] [1560275137.387729327]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275137.387837535]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275137.387944910]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275137.487512660]: Altitude is: 1.243057
+[ INFO] [1560275137.487630077]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275137.487700035]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275137.487760827]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275137.587637994]: Altitude is: 1.243057
+[ INFO] [1560275137.587954994]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275137.588176619]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275137.588367660]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275137.687542619]: Altitude is: 1.243057
+[ INFO] [1560275137.687672744]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275137.687777327]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275137.687862535]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275137.787585702]: Altitude is: 1.243057
+[ INFO] [1560275137.787740077]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275137.787832035]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275137.787948619]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275137.887525910]: Altitude is: 1.243057
+[ INFO] [1560275137.887654910]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275137.887746119]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275137.887821035]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275137.987552535]: Altitude is: 1.243057
+[ INFO] [1560275137.987690452]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275137.987777910]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275137.987911744]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275138.087529160]: Altitude is: 1.243057
+[ INFO] [1560275138.087652410]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275138.087765285]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275138.087860785]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275138.187519452]: Altitude is: 1.243057
+[ INFO] [1560275138.187661619]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275138.187787452]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275138.187938077]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275138.287641619]: Altitude is: 1.243057
+[ INFO] [1560275138.287938077]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275138.288136702]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275138.288329410]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275138.388160952]: Altitude is: 1.243057
+[ INFO] [1560275138.388460202]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275138.388657744]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275138.388844869]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275138.487875744]: Altitude is: 1.243057
+[ INFO] [1560275138.488001785]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275138.488106119]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275138.488227702]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275138.587548286]: Altitude is: 1.243057
+[ INFO] [1560275138.587693036]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275138.587766952]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275138.587840786]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275138.687529661]: Altitude is: 1.243057
+[ INFO] [1560275138.687668036]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275138.687772286]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275138.687881452]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275138.787526869]: Altitude is: 1.243057
+[ INFO] [1560275138.787653452]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275138.787724494]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275138.787798452]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275138.887692036]: Altitude is: 1.243057
+[ INFO] [1560275138.887912036]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275138.888042702]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275138.888180036]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275138.987514661]: Altitude is: 1.243057
+[ INFO] [1560275138.987637911]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275138.987724452]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275138.987814161]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275139.087543577]: Altitude is: 1.243057
+[ INFO] [1560275139.087670952]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275139.087740786]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275139.087810244]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275139.187543702]: Altitude is: 1.243057
+[ INFO] [1560275139.187698244]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275139.187790161]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275139.187883077]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275139.287525702]: Altitude is: 1.243057
+[ INFO] [1560275139.287670119]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275139.287771869]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275139.287872911]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275139.387510827]: Altitude is: 1.243057
+[ INFO] [1560275139.387639702]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275139.387739827]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275139.387814369]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275139.487518452]: Altitude is: 1.243057
+[ INFO] [1560275139.487642411]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275139.487742077]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275139.487833327]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275139.587583661]: Altitude is: 1.243057
+[ INFO] [1560275139.587800161]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275139.587922036]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275139.588024619]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275139.687541702]: Altitude is: 1.243057
+[ INFO] [1560275139.687703702]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275139.687830036]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275139.687955077]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275139.787527911]: Altitude is: 1.243057
+[ INFO] [1560275139.787656119]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275139.787768452]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275139.787871911]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275139.887569369]: Altitude is: 1.243057
+[ INFO] [1560275139.887725661]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275139.887844577]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275139.887925869]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275139.987526202]: Altitude is: 1.243057
+[ INFO] [1560275139.987648244]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275139.987741286]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275139.987830661]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275140.087507869]: Altitude is: 1.243057
+[ INFO] [1560275140.087639286]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275140.087748286]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275140.087851494]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275140.187561077]: Altitude is: 1.243057
+[ INFO] [1560275140.187746327]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275140.187915036]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275140.188194619]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275140.287526869]: Altitude is: 1.243057
+[ INFO] [1560275140.287649036]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275140.287762952]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275140.287866952]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275140.387512244]: Altitude is: 1.243057
+[ INFO] [1560275140.387635911]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275140.387704494]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275140.387764119]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275140.487540077]: Altitude is: 1.243057
+[ INFO] [1560275140.487667161]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275140.487767744]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275140.487860202]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275140.587561786]: Altitude is: 1.243057
+[ INFO] [1560275140.587725369]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275140.587807702]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275140.587883369]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275140.687517369]: Altitude is: 1.243057
+[ INFO] [1560275140.687645119]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275140.687757952]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275140.687835452]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275140.787533161]: Altitude is: 1.243057
+[ INFO] [1560275140.787683744]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275140.787805619]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275140.787908161]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275140.887529036]: Altitude is: 1.243057
+[ INFO] [1560275140.887675661]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275140.887766786]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275140.887841869]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275140.987529619]: Altitude is: 1.243057
+[ INFO] [1560275140.987654827]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275140.987753161]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275140.987827994]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275141.087520952]: Altitude is: 1.243057
+[ INFO] [1560275141.087649577]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275141.087753327]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275141.087870911]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275141.187556577]: Altitude is: 1.243057
+[ INFO] [1560275141.187712744]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275141.187831327]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275141.187946619]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275141.287670578]: Altitude is: 1.243057
+[ INFO] [1560275141.288055744]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275141.288370328]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275141.288563286]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275141.387526869]: Altitude is: 1.243057
+[ INFO] [1560275141.387642203]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275141.387750578]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275141.387837244]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275141.487519661]: Altitude is: 1.243057
+[ INFO] [1560275141.487648744]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275141.487768828]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275141.487866036]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275141.587513661]: Altitude is: 1.243057
+[ INFO] [1560275141.587638369]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275141.587747036]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275141.587837911]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275141.687522411]: Altitude is: 1.243057
+[ INFO] [1560275141.687643494]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275141.687754869]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275141.687835661]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275141.787520536]: Altitude is: 1.243057
+[ INFO] [1560275141.787639369]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275141.787757786]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275141.787841661]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275141.887511911]: Altitude is: 1.243057
+[ INFO] [1560275141.887642703]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275141.887745161]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275141.887852369]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275141.987515078]: Altitude is: 1.243057
+[ INFO] [1560275141.987639578]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275141.987758244]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275141.987857411]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275142.087504328]: Altitude is: 1.243057
+[ INFO] [1560275142.087636578]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275142.087736036]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275142.087810703]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275142.187516161]: Altitude is: 1.243057
+[ INFO] [1560275142.187640161]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275142.187740578]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275142.187829286]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275142.287523536]: Altitude is: 1.243057
+[ INFO] [1560275142.287650786]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275142.287754911]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275142.287854786]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275142.387514244]: Altitude is: 1.243057
+[ INFO] [1560275142.387631286]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275142.387736244]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275142.387814244]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275142.487512619]: Altitude is: 1.243057
+[ INFO] [1560275142.487631703]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275142.487739119]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275142.487817119]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275142.588085578]: Altitude is: 1.243057
+[ INFO] [1560275142.588441619]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275142.588701661]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275142.588902119]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275142.687535578]: Altitude is: 1.243057
+[ INFO] [1560275142.687662703]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275142.687761703]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275142.687876619]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275142.787563703]: Altitude is: 1.243057
+[ INFO] [1560275142.787715953]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275142.787802994]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275142.787930161]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275142.887530619]: Altitude is: 1.243057
+[ INFO] [1560275142.887654203]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275142.887748953]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275142.887840119]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275142.987520369]: Altitude is: 1.243057
+[ INFO] [1560275142.987642369]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275142.987757786]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275142.987842911]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275143.087513161]: Altitude is: 1.243057
+[ INFO] [1560275143.087632869]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275143.087733578]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275143.087811078]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275143.187522578]: Altitude is: 1.243057
+[ INFO] [1560275143.187645994]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275143.187745703]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275143.187856911]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275143.287514536]: Altitude is: 1.243057
+[ INFO] [1560275143.287633203]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275143.287737994]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275143.287828078]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275143.387541494]: Altitude is: 1.243057
+[ INFO] [1560275143.387663786]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275143.387772744]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275143.387849078]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275143.487616953]: Altitude is: 1.243057
+[ INFO] [1560275143.487888661]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275143.488046494]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275143.488175036]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275143.587542953]: Altitude is: 1.243057
+[ INFO] [1560275143.587672744]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275143.587783203]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275143.587854119]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275143.687563494]: Altitude is: 1.243057
+[ INFO] [1560275143.687701078]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275143.687780369]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275143.687864578]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275143.787519119]: Altitude is: 1.243057
+[ INFO] [1560275143.787646036]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275143.787755744]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275143.787865078]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275143.887518244]: Altitude is: 1.243057
+[ INFO] [1560275143.887642286]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275143.887740661]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275143.887826203]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275143.987520494]: Altitude is: 1.243057
+[ INFO] [1560275143.987661244]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275143.987766244]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275143.987881911]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275144.087522911]: Altitude is: 1.243057
+[ INFO] [1560275144.087650745]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275144.087759620]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275144.087923453]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275144.187515203]: Altitude is: 1.243057
+[ INFO] [1560275144.187641203]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275144.187750870]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275144.187837370]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275144.287532536]: Altitude is: 1.243057
+[ INFO] [1560275144.287684620]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275144.287763745]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275144.287886161]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275144.387626995]: Altitude is: 1.243057
+[ INFO] [1560275144.387932911]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275144.388139536]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275144.388337870]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275144.487562245]: Altitude is: 1.243057
+[ INFO] [1560275144.487690703]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275144.487762036]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275144.487829911]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275144.587534411]: Altitude is: 1.243057
+[ INFO] [1560275144.587676245]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275144.587787661]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275144.587884578]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275144.687503495]: Altitude is: 1.243057
+[ INFO] [1560275144.687629995]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275144.687737536]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275144.687838328]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275144.787541578]: Altitude is: 1.243057
+[ INFO] [1560275144.787700120]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275144.787818620]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275144.787904911]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275144.887520120]: Altitude is: 1.243057
+[ INFO] [1560275144.887644453]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275144.887739620]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275144.887831953]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275144.987523620]: Altitude is: 1.243057
+[ INFO] [1560275144.987645203]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275144.987740495]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275144.987822245]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275145.087530661]: Altitude is: 1.243057
+[ INFO] [1560275145.087648036]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275145.087758245]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275145.087836453]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275145.187525536]: Altitude is: 1.243057
+[ INFO] [1560275145.187650286]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275145.187761161]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275145.187847786]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275145.287515411]: Altitude is: 1.243057
+[ INFO] [1560275145.287629953]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275145.287727828]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275145.287803120]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275145.387524411]: Altitude is: 1.243057
+[ INFO] [1560275145.387665161]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275145.387760203]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275145.387837411]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275145.487541495]: Altitude is: 1.243057
+[ INFO] [1560275145.487737911]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275145.487866828]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275145.487992661]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275145.587543120]: Altitude is: 1.243057
+[ INFO] [1560275145.587705411]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275145.587803286]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275145.587904620]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275145.687520078]: Altitude is: 1.243057
+[ INFO] [1560275145.687642411]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275145.687740870]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275145.687819453]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275145.787534745]: Altitude is: 1.243057
+[ INFO] [1560275145.787657828]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275145.787756745]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275145.787823953]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275145.887637536]: Altitude is: 1.243057
+[ INFO] [1560275145.887915828]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275145.888121995]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275145.888275078]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275145.987537036]: Altitude is: 1.243057
+[ INFO] [1560275145.987661078]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275145.987760911]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275145.987856078]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275146.087539036]: Altitude is: 1.243057
+[ INFO] [1560275146.087661953]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275146.087742411]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275146.087857953]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275146.187520328]: Altitude is: 1.243057
+[ INFO] [1560275146.187642495]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275146.187756953]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275146.187847120]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275146.287525245]: Altitude is: 1.243057
+[ INFO] [1560275146.287647411]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275146.287744203]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275146.287826495]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275146.387517036]: Altitude is: 1.243057
+[ INFO] [1560275146.387633036]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275146.387726495]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275146.387805953]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275146.487531161]: Altitude is: 1.243057
+[ INFO] [1560275146.487673120]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275146.487774078]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275146.487846036]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275146.587527703]: Altitude is: 1.243057
+[ INFO] [1560275146.587659036]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275146.587764411]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275146.587844328]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275146.687674078]: Altitude is: 1.243057
+[ INFO] [1560275146.687976245]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275146.688238370]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275146.688494036]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275146.787527578]: Altitude is: 1.243057
+[ INFO] [1560275146.787651203]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275146.787747453]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275146.787837786]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275146.887520245]: Altitude is: 1.243057
+[ INFO] [1560275146.887646578]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275146.887763537]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275146.887858995]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275146.987619745]: Altitude is: 1.243057
+[ INFO] [1560275146.987887453]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275146.988063203]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275146.988221912]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275147.087542995]: Altitude is: 1.243057
+[ INFO] [1560275147.087686328]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275147.087793203]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275147.087870453]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275147.187533495]: Altitude is: 1.243057
+[ INFO] [1560275147.187658912]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275147.187760203]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275147.187864162]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275147.287532203]: Altitude is: 1.243057
+[ INFO] [1560275147.287661662]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275147.287734245]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275147.287829578]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275147.387564745]: Altitude is: 1.243057
+[ INFO] [1560275147.387708120]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275147.387780120]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275147.387841870]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275147.487520953]: Altitude is: 1.243057
+[ INFO] [1560275147.487645537]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275147.487759578]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275147.487851453]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275147.587508495]: Altitude is: 1.243057
+[ INFO] [1560275147.587638245]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275147.587742370]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275147.587895578]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275147.687538870]: Altitude is: 1.243057
+[ INFO] [1560275147.687673537]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275147.687754120]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275147.687830787]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275147.787523995]: Altitude is: 1.243057
+[ INFO] [1560275147.787649245]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275147.787756162]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275147.787852120]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275147.887515912]: Altitude is: 1.243057
+[ INFO] [1560275147.887636162]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275147.887734787]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275147.887819828]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275147.987515287]: Altitude is: 1.243057
+[ INFO] [1560275147.987651828]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275147.987785953]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275147.987880870]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275148.087535703]: Altitude is: 1.243057
+[ INFO] [1560275148.087655995]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275148.087768870]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275148.087867745]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275148.187523953]: Altitude is: 1.243057
+[ INFO] [1560275148.187666537]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275148.187783870]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275148.187874162]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275148.287519037]: Altitude is: 1.243057
+[ INFO] [1560275148.287636953]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275148.287733495]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275148.287801662]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275148.387862495]: Altitude is: 1.243057
+[ INFO] [1560275148.388003120]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275148.388139203]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275148.388275537]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275148.488087245]: Altitude is: 1.243057
+[ INFO] [1560275148.488246120]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275148.488386703]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275148.488529078]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275148.587520912]: Altitude is: 1.243057
+[ INFO] [1560275148.587650203]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275148.587771745]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275148.587869620]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275148.687517537]: Altitude is: 1.243057
+[ INFO] [1560275148.687649995]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275148.687764578]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275148.687885162]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275148.787511912]: Altitude is: 1.243057
+[ INFO] [1560275148.787645912]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275148.787735120]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275148.787860162]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275148.887613078]: Altitude is: 1.243057
+[ INFO] [1560275148.887849787]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275148.888006287]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275148.888125912]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275148.987742953]: Altitude is: 1.243057
+[ INFO] [1560275148.988061620]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275148.988287828]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275148.988484412]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275149.087654662]: Altitude is: 1.243057
+[ INFO] [1560275149.087942578]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275149.088133537]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275149.088296662]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275149.187534495]: Altitude is: 1.243057
+[ INFO] [1560275149.187658287]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275149.187764870]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275149.187850745]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275149.287515912]: Altitude is: 1.243057
+[ INFO] [1560275149.287638662]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275149.287747745]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275149.287856037]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275149.387544912]: Altitude is: 1.243057
+[ INFO] [1560275149.387670995]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275149.387762287]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275149.387833662]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275149.487526870]: Altitude is: 1.243057
+[ INFO] [1560275149.487665787]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275149.487765203]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275149.487842370]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275149.587534870]: Altitude is: 1.243057
+[ INFO] [1560275149.587659537]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275149.587731453]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275149.587793912]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275149.687542412]: Altitude is: 1.243057
+[ INFO] [1560275149.687701204]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275149.687802370]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275149.687908870]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275149.787519454]: Altitude is: 1.243057
+[ INFO] [1560275149.787638454]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275149.787740287]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275149.787821120]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275149.887520204]: Altitude is: 1.243057
+[ INFO] [1560275149.887638120]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275149.887737912]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275149.887815204]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275149.987521287]: Altitude is: 1.243057
+[ INFO] [1560275149.987644579]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275149.987744829]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275149.987837704]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275150.087528912]: Altitude is: 1.243057
+[ INFO] [1560275150.087665537]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275150.087775537]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275150.087882745]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275150.187659620]: Altitude is: 1.243057
+[ INFO] [1560275150.187970579]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275150.188193912]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275150.188375995]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275150.287533537]: Altitude is: 1.243057
+[ INFO] [1560275150.287663912]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275150.287753412]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275150.287827162]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275150.387515495]: Altitude is: 1.243057
+[ INFO] [1560275150.387647329]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275150.387735245]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275150.387808912]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275150.487533204]: Altitude is: 1.243057
+[ INFO] [1560275150.487688370]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275150.487815495]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275150.487922495]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275150.587587620]: Altitude is: 1.243057
+[ INFO] [1560275150.587816954]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275150.587978329]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275150.588103829]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275150.687513662]: Altitude is: 1.243057
+[ INFO] [1560275150.687631287]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275150.687724079]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275150.687819745]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275150.787579745]: Altitude is: 1.243057
+[ INFO] [1560275150.787819912]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275150.787982412]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275150.788133870]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275150.887554995]: Altitude is: 1.243057
+[ INFO] [1560275150.887766079]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275150.887953870]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275150.888106787]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275150.987544787]: Altitude is: 1.243057
+[ INFO] [1560275150.987695120]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275150.987839745]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275150.987983870]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275151.087557454]: Altitude is: 1.243057
+[ INFO] [1560275151.087696579]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275151.087821204]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275151.087951329]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275151.187518329]: Altitude is: 1.243057
+[ INFO] [1560275151.187657245]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275151.187770120]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275151.187856704]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275151.287513370]: Altitude is: 1.243057
+[ INFO] [1560275151.287646412]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275151.287759579]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275151.287897120]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275151.387532787]: Altitude is: 1.243057
+[ INFO] [1560275151.387678995]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275151.387783745]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275151.387952745]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275151.487575454]: Altitude is: 1.243057
+[ INFO] [1560275151.487808370]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275151.488023370]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275151.488225412]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275151.587530829]: Altitude is: 1.243057
+[ INFO] [1560275151.587669204]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275151.587773870]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275151.587876704]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275151.687571662]: Altitude is: 1.243057
+[ INFO] [1560275151.687806454]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275151.688015162]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275151.688217079]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275151.787541245]: Altitude is: 1.243057
+[ INFO] [1560275151.787728120]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275151.787887287]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275151.788035579]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275151.887526704]: Altitude is: 1.243057
+[ INFO] [1560275151.887653829]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275151.887731995]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275151.887815162]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275151.987524995]: Altitude is: 1.243057
+[ INFO] [1560275151.987656787]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275151.987737995]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275151.987819579]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275152.087533620]: Altitude is: 1.243057
+[ INFO] [1560275152.087656704]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275152.087767787]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275152.087870954]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275152.187541204]: Altitude is: 1.243057
+[ INFO] [1560275152.187728329]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275152.187874870]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275152.188028079]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275152.287546662]: Altitude is: 1.243057
+[ INFO] [1560275152.287707495]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275152.287816662]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275152.287949787]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275152.387612870]: Altitude is: 1.243057
+[ INFO] [1560275152.387883329]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275152.388098287]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275152.388322995]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275152.488098496]: Altitude is: 1.243057
+[ INFO] [1560275152.488430454]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275152.488732662]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275152.488999329]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275152.588091037]: Altitude is: 1.243057
+[ INFO] [1560275152.588258121]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275152.588373787]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275152.588482871]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275152.687597537]: Altitude is: 1.243057
+[ INFO] [1560275152.687846496]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275152.688067871]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275152.688248621]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275152.787530704]: Altitude is: 1.243057
+[ INFO] [1560275152.787662037]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275152.787763829]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275152.787852454]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275152.887526204]: Altitude is: 1.243057
+[ INFO] [1560275152.887653537]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275152.887725912]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275152.887793537]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275152.987554746]: Altitude is: 1.243057
+[ INFO] [1560275152.987700871]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275152.987807954]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275152.987898829]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275153.087608537]: Altitude is: 1.243057
+[ INFO] [1560275153.087810246]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275153.087959787]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275153.088152121]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275153.187526079]: Altitude is: 1.243057
+[ INFO] [1560275153.187663079]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275153.187780704]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275153.187880412]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275153.287592621]: Altitude is: 1.243057
+[ INFO] [1560275153.287857121]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275153.288015204]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275153.288169162]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275153.387631621]: Altitude is: 1.243057
+[ INFO] [1560275153.387967954]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275153.388282704]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275153.388577121]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275153.487563787]: Altitude is: 1.243057
+[ INFO] [1560275153.487759037]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275153.487921829]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275153.488060996]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275153.587534246]: Altitude is: 1.243057
+[ INFO] [1560275153.587669954]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275153.587777871]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275153.587860162]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275153.687601079]: Altitude is: 1.243057
+[ INFO] [1560275153.687865954]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275153.688094871]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275153.688335162]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275153.787572412]: Altitude is: 1.243057
+[ INFO] [1560275153.787768246]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275153.787900079]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275153.788024912]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275153.887702371]: Altitude is: 1.243057
+[ INFO] [1560275153.888033454]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275153.888335496]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275153.888610121]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275153.987620662]: Altitude is: 1.243057
+[ INFO] [1560275153.987900537]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275153.988175621]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275153.988402704]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275154.087579246]: Altitude is: 1.243057
+[ INFO] [1560275154.087751621]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275154.087895287]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275154.088010329]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275154.187607621]: Altitude is: 1.243057
+[ INFO] [1560275154.187815954]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275154.187964162]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275154.188134537]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275154.287644287]: Altitude is: 1.243057
+[ INFO] [1560275154.287971162]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275154.288264704]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275154.288544162]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275154.387615662]: Altitude is: 1.243057
+[ INFO] [1560275154.387871787]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275154.388088912]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275154.388313079]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275154.487591121]: Altitude is: 1.243057
+[ INFO] [1560275154.487772954]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275154.487892871]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275154.488032912]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275154.587548537]: Altitude is: 1.243057
+[ INFO] [1560275154.587686662]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275154.587781246]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275154.587889037]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275154.687604496]: Altitude is: 1.243057
+[ INFO] [1560275154.687848829]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275154.688071787]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275154.688335621]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275154.787533412]: Altitude is: 1.243057
+[ INFO] [1560275154.787664662]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275154.787759371]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275154.787837412]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275154.887577329]: Altitude is: 1.243057
+[ INFO] [1560275154.887765912]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275154.887938787]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275154.888164829]: velocity commands, right: 0.139005, forward, 0.099875
+[ INFO] [1560275154.987555829]: Altitude is: 1.243057
+[ INFO] [1560275154.987723246]: tag seen - using vishnu data to centre over target
+[ INFO] [1560275154.987870954]: Distance from target according to cam: 0.256747, move forward: 0.149812, move right: 0.208507
+[ INFO] [1560275154.988022621]: velocity commands, right: 0.139005, forward, 0.099875
+^C
