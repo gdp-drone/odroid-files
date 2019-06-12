@@ -2,4 +2,4 @@
 
 # run ./sensors_logger
 ~/bagfiles/cpu_logger  >> ~/bagfiles/$(date +%s).txt &
-rosbag record -O ~/bagfiles/$(date +%s).bag /laser/scan /target_position /filtered_target_abs_position /drone_position
+rosbag record -O ~/bagfiles/$(date +%s).bag /laser/scan /android/fix /gps_wrtdrone_position /mavros/altitude /mavros/local_position/pose /mavros/global_position/compass_hdg
